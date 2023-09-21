@@ -20,11 +20,9 @@ def make_predictions(dfp):
 
     predict = classifier.predict_model(model, data=dfp)
 
-    predict.rename({"prediction_label": "churn_prediction"}, axis=1, inplace=True)
+    predict.rename({"prediction_score": "churn_probability"}, axis=1, inplace=True)
 
-    predict["churn_prediction"].replace({1: 'Churn', 0: 'No Churn'}, inplace=True)
-
-    return predict["churn_prediction"]
+    return predict["churn_probability"]
 
 
 if __name__ == "__main__":
