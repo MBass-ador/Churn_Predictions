@@ -1,0 +1,33 @@
+2023-09-21 16:52:23,708:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-21 16:52:23,708:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-21 16:52:23,708:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-21 16:52:23,708:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-21 16:53:43,752:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-21 16:53:43,752:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-21 16:53:43,752:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-21 16:53:43,752:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-21 16:53:44,958:INFO:Initializing load_model()
+2023-09-21 16:53:44,959:INFO:load_model(model_name=churn_prediction_model, platform=None, authentication=None, verbose=True)
+2023-09-21 16:53:45,768:INFO:Initializing predict_model()
+2023-09-21 16:53:45,769:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7fe49f7d3ee0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['tenure', 'PhoneService',
+                                             'Contract', 'PaymentMethod',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', QuadraticDiscriminantAnalysis())]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7fe4a62efe20>)
+2023-09-21 16:53:45,769:INFO:Checking exceptions
+2023-09-21 16:53:45,769:INFO:Preloading libraries
+2023-09-21 16:53:45,769:INFO:Set up data.
+2023-09-21 16:53:45,774:INFO:Set up index.
