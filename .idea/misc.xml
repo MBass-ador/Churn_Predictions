@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="executionMode" value="BINARY" />
+    <option name="pathToExecutable" value="$USER_HOME$/anaconda3/bin/black" />
+    <option name="sdkUUID" value="8c877195-4b9d-4563-b481-243578fc48b0" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="pycarat_env" project-jdk-type="Python SDK" />
+</project>
