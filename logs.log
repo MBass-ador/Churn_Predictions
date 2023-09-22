@@ -81,3 +81,53 @@
 2023-09-21 17:42:53,577:INFO:Preloading libraries
 2023-09-21 17:42:53,578:INFO:Set up data.
 2023-09-21 17:42:53,582:INFO:Set up index.
+2023-09-21 18:43:50,329:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-21 18:43:50,329:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-21 18:43:50,329:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-21 18:43:50,329:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-21 18:43:51,665:INFO:Initializing load_model()
+2023-09-21 18:43:51,665:INFO:load_model(model_name=churn_prediction_model, platform=None, authentication=None, verbose=True)
+2023-09-21 18:43:52,440:INFO:Initializing predict_model()
+2023-09-21 18:43:52,440:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f7a2c7d7ee0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['tenure', 'PhoneService',
+                                             'Contract', 'PaymentMethod',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', QuadraticDiscriminantAnalysis())]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f7a33bebc70>)
+2023-09-21 18:43:52,440:INFO:Checking exceptions
+2023-09-21 18:43:52,440:INFO:Preloading libraries
+2023-09-21 18:43:52,440:INFO:Set up data.
+2023-09-21 18:43:52,445:INFO:Set up index.
+2023-09-21 18:44:28,423:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-21 18:44:28,423:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-21 18:44:28,423:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-21 18:44:28,423:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-09-21 18:44:29,645:INFO:Initializing load_model()
+2023-09-21 18:44:29,645:INFO:load_model(model_name=churn_prediction_model, platform=None, authentication=None, verbose=True)
+2023-09-21 18:44:30,409:INFO:Initializing predict_model()
+2023-09-21 18:44:30,409:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f78b0fd3ee0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['tenure', 'PhoneService',
+                                             'Contract', 'PaymentMethod',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model', QuadraticDiscriminantAnalysis())]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f78b84d3c70>)
+2023-09-21 18:44:30,409:INFO:Checking exceptions
+2023-09-21 18:44:30,409:INFO:Preloading libraries
+2023-09-21 18:44:30,409:INFO:Set up data.
+2023-09-21 18:44:30,415:INFO:Set up index.
